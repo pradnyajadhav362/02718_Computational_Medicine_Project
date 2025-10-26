@@ -1,0 +1,15 @@
+# data (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# large outputs / caches
+*.h5ad
+*.h5
+*.zarr
+*.gz
+*.txt
+*.tsv
+*.csv
+
+# notebooks' checkpoint junk
+.ipynb_checkpoints/
