@@ -13,3 +13,5 @@ data/*
 
 # notebooks' checkpoint junk
 .ipynb_checkpoints/
+
+*.DS_Store
