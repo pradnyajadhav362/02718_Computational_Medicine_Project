@@ -1,5 +1,5 @@
 # Immune Response Prediction in Melanoma  
-### *Cross-Modality Machine Learning Using Bulk & Single-Cell RNA-seq*
+### *Cross-Modality Machine Learning Using Single-Cell and Bulk RNA-seq datasets*
 
 ![alt text](featureplots.png)
 
@@ -299,6 +299,32 @@ print("Bulk → Single-Cell Transfer AUC:", auc)
 
 
 
+---
+# Dataset References:
+@misc{GSE120575,
+  author       = {Sade-Feldman, Moshe and Yizhak, Keren},
+  title        = {Defining T cell states associated with response to checkpoint immunotherapy in melanoma},
+  year         = {2018},
+  howpublished = {\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575}},
+  note         = {GEO Series GSE120575. Single-cell RNA-seq of melanoma tumors treated with checkpoint inhibitors. dbGaP accession: phs001680.v1.p1},
+  publisher    = {NCBI Gene Expression Omnibus}
+}
+@misc{GSE78220,
+  author       = {Hugo, Willy and Zaretsky, Jesse M. and Sun, Lihua and Song, Chang S. and Moreno, Belen H. and Hu-Lieskovan, Stephanie and Berent-Maoz, Beata and Pang, J. Michelle and Chmielowski, Bartosz and Cherry, Gordon and Seja, Erica and Lomeli, Shirley and Kong, Xiaoyan and Kelley, Matthew C. and Sosman, Jeffrey A. and Johnson, Douglas B. and Ribas, Antoni},
+  title        = {Genomic and transcriptomic features of response to anti-PD-1 therapy in metastatic melanoma},
+  year         = {2016},
+  howpublished = {\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78220}},
+  note         = {GEO Series GSE78220. Processed RNA-seq data (FPKM) used in checkpoint immunotherapy response studies},
+  publisher    = {NCBI Gene Expression Omnibus}
+}
+@misc{GSE91061,
+  author       = {Riaz, Nadeem and Havel, Jonathan J. and Kendall, Sarah M. and Makarov, Vladimir and Walsh, Lisa A. and Desrichard, Alexis and Weinhold, Nils and Chan, Timothy A.},
+  title        = {Tumor and microenvironment evolution during immunotherapy with nivolumab},
+  year         = {2017},
+  howpublished = {\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061}},
+  note         = {GEO Series GSE91061. RNA-seq data (FPKM) from melanoma patients treated with anti-PD-1 therapy},
+  publisher    = {NCBI Gene Expression Omnibus}
+}
 ---
 
 # Final Notes
